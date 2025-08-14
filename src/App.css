@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition:  padding 1s ease, background-color 1s ease;
+    background-color: #33333385;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .logo-container{
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo{
+    height: 50px;
+  }
+  
+  
+  .navbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #fff;
+  }
+  
